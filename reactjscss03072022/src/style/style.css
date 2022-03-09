@@ -45,6 +45,7 @@ nav .navbar-nav li {
   height: 100%;
   /* border: 15px solid black; */
   background: #78c5dc;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .saturday-img {
   width: 100%;
