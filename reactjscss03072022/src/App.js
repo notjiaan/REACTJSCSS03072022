@@ -13,7 +13,7 @@ import { BrowserRouter, Routes, Route, Navigate, HashRouter } from "react-router
 function App() {
   return (
     <>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<NavBar />}>
             <Route path="/" element={<Navigate to="/home" />} />
@@ -22,7 +22,7 @@ function App() {
             <Route path="Sunday" element={<Sunday />} />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
       <Footer />
     </>
   );
