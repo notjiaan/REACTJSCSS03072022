@@ -56,7 +56,6 @@ export const Sunday = () => {
                     </Carousel.Item>
                 </Carousel>
 
-
             </div>
 
 

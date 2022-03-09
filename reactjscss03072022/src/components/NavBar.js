@@ -5,7 +5,7 @@ import ReactLogo from '../logo.svg'
 const NavBar = () => {
     return (
         <>
-            <nav className="navbar sticky-top navbar-expand-lg navbar-dark  mb-5">
+            <nav className="navbar sticky-top navbar-expand-lg navbar-dark mb-5">
                 <div className="container-fluid">
                     <a className="navbar-brand " ><img src="https://emoji.gg/assets/emoji/9768_Radiant_Valorant.png" alt="React Logo" style={{ width: '3rem', height: '3rem', padding: "10px" }} />Jiaan Abad</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

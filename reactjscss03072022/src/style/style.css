@@ -9,6 +9,16 @@ nav .navbar-nav li {
   margin-right: 1em;
 }
 
+.navbar-toggler-icon{
+  font-size: 0.8em;
+  outline: none
+}
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 /* Home css */
 
 .home-container {
@@ -69,7 +79,7 @@ nav .navbar-nav li {
   filter: brightness(225%);
   opacity: 0.2;
 }
-.sunday-img:hover {
+.item-filter :hover {
     opacity: 1;
     filter: none;
   }

@@ -6,14 +6,14 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 //router dom
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, HashRouter } from "react-router-dom";
 
 
 
 function App() {
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<NavBar />}>
             <Route path="/" element={<Navigate to="/home" />} />
@@ -22,7 +22,7 @@ function App() {
             <Route path="Sunday" element={<Sunday />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </>
   );
