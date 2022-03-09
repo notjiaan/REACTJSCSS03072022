@@ -18,8 +18,8 @@ function App() {
           <Route path="/" element={<NavBar />}>
             {/* <Route path="/" element={<Navigate to="/home" />} /> */}
             <Route path="/" element={<Home />} />
-            <Route path="Saturday" element={<Saturday />} />
-            <Route path="Sunday" element={<Sunday />} />
+            <Route path="/Saturday" element={<Saturday />} />
+            <Route path="/Sunday" element={<Sunday />} />
           </Route>
         </Routes>
       </BrowserRouter>
